@@ -1,0 +1,263 @@
+#menu
+{
+	margin-top: 0;
+	width: 80%;
+	height: 8%;
+	left: 10%;
+	background: url(../Imagens/menu_fundo.jpg);
+	position: fixed;
+	border-radius: 5px;
+	display: flex;
+	  display: flex;
+	  align-items: center;
+	  align-items: center;
+	  -webkit-justify-content: center;
+	  justify-content: center;
+	z-index: 999;  
+}	
+	
+
+#menu div
+{
+	float: left;
+    height: 100%;
+    width: 20%;
+    list-style:none;
+    vertical-align: center;
+    display: -webkit-flex;
+	  display: flex;
+	  -webkit-align-items: center;
+	  align-items: center;
+	  -webkit-justify-content: center;
+	  justify-content: center;
+ 	  
+ } 
+
+ 
+ #menu div .fontMen
+ {
+ 	font-size: 150%;
+ 	color: white;
+ 	margin: 0px;
+ 	border: 0px;
+
+ }
+
+  #menu div .fontMen:hover
+ {
+ 	font-size: 150%;
+ 	color: white;
+ }
+
+/************************login partes*******************************************/
+ .aparecer
+{
+	background: url(../Imagens/menu_fundo.jpg);
+	color: black;
+	position: fixed;
+	font-size: 115%;
+	width: 16%;
+	left: 74%;
+	top: 9%;
+	z-index: 100000;
+	display: none;
+
+}
+
+.aparecer div
+{
+	width: 100%;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+.aparecer div:hover
+{
+	background-color: rgba(255,255,255,0.3);
+	cursor: pointer;
+}
+
+/***************************************************************************/
+
+
+
+
+
+
+.divizinho_menu
+{
+	position: relative;
+
+	top: 0%;
+	display: inline;
+
+
+}
+
+body
+{
+	background: url(../Imagens/watercolour-splatter.jpg);
+
+}
+
+
+
+
+
+
+.fontMen
+{
+	text-decoration: none;
+	font-size:  100%;
+	font-family: 'Supersonic Rocketship';
+	margin-top: 0px;
+	
+}
+
+.login
+{   
+	max-width:60px;
+    max-height:60px;
+    width: auto;
+    height: auto; 
+    margin-top: 1%;
+    border-bottom: 0;
+    
+}
+
+
+/*/////////////////////////////////////////////////////////////////*/
+/*Home*/
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////////////*/
+/*Exercicios*/
+
+#div_exercicios
+{
+	position: absolute;
+	left: 15%;
+	margin-left: 0;
+	border-left: 0;
+	padding-left: 0;
+	top: 15%;
+	width: 70%;
+    height: 80%;
+    background-color: #f3f2ef;
+    z-index: 5;
+    font-size: 50px;
+
+}
+
+.Ex1
+{
+    margin-left: 5%;
+	font-size: 30%;
+}
+
+#div_exercicios strong
+{
+	font-size: 70%;
+}
+
+.menu_exer
+{
+   width: 9%;
+   height: 80%;
+   top: 15%;
+   left: 2%;
+   margin: 0;
+   border: 0;
+   position: fixed;
+   background: url(../Imagens/menu_fundo.jpg);
+}
+
+.menu_exer a {
+   /* background-color: #eee; /* Grey background color */
+
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px 20px 12px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    border: 0;
+    margin: 0;
+}
+
+.menu_exer a:hover {
+    background-color: #f3f2ef; /* Dark grey background on mouse-over */
+    background-image: none;
+    color: black;
+    font-size: 110%;
+
+}
+
+.menu_exer a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.menu_exer label
+{
+	/*background: #f3f2ef;*/
+
+	color: white;
+    padding: 0px 55px 2px 10px;
+    font-size: 20px
+}
+
+.menu_exer .a
+{
+	/*background: #f3f2ef;*/
+    padding: 0px 19px 2px 10px;
+}    
+
+.menu_exer .c
+{
+	/*background: #f3f2ef;*/
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: yellow;
+    font-size: 150%;
+} 
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////*/
+
+.home
+{
+	text-decoration: none;
+    display: inline;
+    top: 0%
+}
+
+
+
+
+
+
+.nomeLogo
+{
+	text-decoration: none;
+	font-size:  200%;
+	font-family: 'Supersonic Rocketship';
+	color: yellow;
+	
+}
+
+.nomeLogo:hover
+{
+	text-decoration: none;
+	font-size:  200%;
+	font-family: 'Supersonic Rocketship';
+	color: white;
+	
+}
